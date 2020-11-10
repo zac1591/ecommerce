@@ -4,8 +4,8 @@ import MenuItem from "../menu-item/menu-item.component";
 import "./directory.styles.scss";
 
 class Directory extends React.Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
 
     this.state = {
       sections: [
