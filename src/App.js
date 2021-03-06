@@ -9,6 +9,7 @@ import Homepage from "./pages/Homepage/homepage.component";
 import ShopPage from "./pages/shop/shop.component";
 import SignInAndSignOut from "./pages/sign-in-and-sign-out/sign-in-and-sign-out";
 import Checkoutpage from './pages/checkout/checkout.component'
+import ContactPageComponent from './pages/contact-page/contact-page.component'
 
 import Header from "./Components/header/header.component.jsx";
 
@@ -62,6 +63,7 @@ class App extends React.Component {
                 )
               }     
           />
+          <Route exact path='/contact' component={ContactPageComponent} />
         </Switch>
       </div>
     );
